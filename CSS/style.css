@@ -1,0 +1,148 @@
+body{
+    background-color: whitesmoke;
+}
+
+.parent-block{
+    width: 800px;
+}
+
+.challenge{
+    font-size: 11px; text-align: center;
+}
+
+.challenge a{
+    color: hsl(228, 45%, 44%);
+}
+
+.header{
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+.header a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .Sneakers {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .sub-header {
+    float: none;
+    font-size: 18px;
+}
+
+.cart-avatar{
+    float: right;
+}
+
+.cart{
+    size: 1px;
+}
+
+.avatar{
+    width: 20px;
+}
+
+hr{
+    width: 900px;
+    text-align: left;
+    margin-left: 0%;
+}
+
+.content{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-block{
+    width: 300px;
+}
+
+.image{
+    width: 300px;
+    border-radius: 15px;
+}
+
+.thumbnail{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.img1{
+    width: 60px;
+    border-radius: 5px;
+}
+
+.description{
+    width: 300px;
+}
+
+.company{
+    color: orangered;
+    size: 18px;
+}
+
+.cat{
+    font-weight: bold;
+}
+
+.button-block{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.button1{
+    width: 80px;
+    background-color: #ddd;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.minus{
+    width:20px;
+}
+
+.zero{
+    width: 20px;
+}
+
+.plus{
+    width:20px;
+}
+
+.addcart{
+    width: 150px;
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+}
